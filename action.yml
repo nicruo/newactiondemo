@@ -1,0 +1,8 @@
+name: 'New Action Demo'
+description: 'My Super New Action Demo'
+
+runs:
+  using: "composite"
+  steps:
+  - run: echo Hello from Action
+    shell: bash
