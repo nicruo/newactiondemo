@@ -6,3 +6,4 @@ runs:
   steps:
   - run: echo Hello from Action
     shell: bash
+  - run: pwd
